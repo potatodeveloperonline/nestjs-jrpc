@@ -1,11 +1,19 @@
 {
   "name": "nestjs-jrpc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON RPC module for NestJS framework",
   "author": "potato developer",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potatodeveloperonline/nestjs-jrpc"
+  },
+  "bugs": {
+    "url": "https://github.com/potatodeveloperonline/nestjs-jrpc/issues"
+  },
+  "homepage": "https://github.com/potatodeveloperonline/nestjs-jrpc#readme",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
